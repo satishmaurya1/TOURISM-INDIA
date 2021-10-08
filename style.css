@@ -332,7 +332,7 @@ section{
     border-radius: 5rem;
     background: rgba(0, 0, 0, .7);
     position: absolute;
-    top: 66rem;
+    top: 84vh;
 }
 
 .home .controls .vid-btn{
@@ -441,4 +441,34 @@ section{
     height: 25rem;
     width: 100%;
     object-fit: cover;
+}
+
+.packages .box-container .box .content{
+    padding: 2rem;
+}
+
+.packages .box-container .box .content h3{
+    font-size: 2rem;
+    color: #333;
+}
+
+.packages .box-container .box .content h3 i{
+    color: var(--purple);
+}
+
+.packages .box-container .box .content p{
+    font-size: 1.4rem;
+    color: rgb(117, 115, 115);
+    padding: 1rem 0;
+}
+
+.packages .box-container .box .content .stars i{
+    font-size: 1.4rem;
+    color: var(--purple);
+}
+
+.packages .box-container .box .content .price{
+    font-size: 2rem;
+    color: #333;
+    padding-top: 1rem;
 }
