@@ -429,7 +429,7 @@ section{
     gap: 2rem;
 }
 
-.packages .box-container .box{
+.packages .box-container .box{ 
     flex: 1 1 30rem;
     border-radius: .5rem;
     overflow: hidden;
@@ -471,4 +471,77 @@ section{
     font-size: 2rem;
     color: #333;
     padding-top: 1rem;
+}
+
+
+/* -------------services--------------*/
+
+
+.services .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.services .box-container .box{ 
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+    text-align: center;
+
+}
+
+.services .box-container .box:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.services .box-container .box i{
+    
+    font-size: 6rem;
+    color: var(--purple);
+}
+
+.services .box-container .box h3{
+    font-size: 3rem;
+}
+
+.services .box-container .box p{
+    padding: 2rem;
+    font-size: 1.6rem;
+}
+
+
+/* ----------gallary--------------- */
+
+
+.gallary .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.gallary .box-container .box{
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.gallary .box-container .box img{
+    height: 33vh;
+}
+
+.gallary .box-container .box .content{
+    padding: 2rem;
+}
+
+.gallary .box-container .box .content h3{
+    font-size: 3rem;
+}
+
+.gallary .box-container .box .content p{
+    font-size: 1.6rem;
 }
